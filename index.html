@@ -37,6 +37,7 @@
             <form class="gateway-form" id="password-form">
                 <label class="gateway-label" for="password-input">Code d'accès</label>
                 <input
+                        aria-describedby="access-hint"
                         autocomplete="off"
                         autofocus
                         class="gateway-input"
@@ -46,6 +47,9 @@
                         spellcheck="false"
                         type="text"
                 />
+                <p class="sr-only" id="access-hint">
+                    Indice : le mot de passe commence par le nom de la ville où tout se joue.
+                </p>
                 <div class="gateway-message gateway-message--error" hidden id="error-message" role="alert">
                     Accès refusé. Le Demogorgon a repéré ta trace...
                 </div>
