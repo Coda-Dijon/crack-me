@@ -1,0 +1,21 @@
+index.html
+  s_72c6d20a04b697::t_71008d251b92f4 40,50-52
+styles.css
+  s_72c6d20a04b697::t_840bcbbed19df9 592-604
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0c028ed781d72028295392f2eeca2588f9a375ee",
+  "prompts": {},
+  "sessions": {
+    "s_72c6d20a04b697": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5d24aa53-d56f-4116-8539-c626b33280cf",
+        "model": "unknown"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
