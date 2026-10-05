@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Coda Lab Security Gateway - CODA</title>
+    <meta content="Crack-me Coda : trouve le mot de passe du Coda Lab." name="description">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div aria-hidden="true" id="particles"></div>
+<header class="header">
+    <div class="container">
+        <a class="logo" href="https://www.coda.school/" rel="noopener" target="_blank">
+            <img alt="CODA - école supérieure d'informatique engagée"
+                 class="logo-img"
+                 src="img/coda-logo.svg">
+        </a>
+        <div class="header-wave"></div>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <section aria-labelledby="hero-title" class="hero">
+            <h1 class="hero-title" id="hero-title">
+                Coda Lab
+                <span class="yr">Security Gateway</span>
+            </h1>
+            <p class="hero-sub">
+                Le portail vers <strong>l'Upside Down</strong> est verrouillé.<br>
+                Trouve le mot de passe avant que le Demogorgon ne te trouve.
+            </p>
+        </section>
+
+        <section class="gateway">
+            <form class="gateway-form" id="password-form">
+                <label class="gateway-label" for="password-input">Code d'accès</label>
+                <input
+                        autocomplete="off"
+                        autofocus
+                        class="gateway-input"
+                        id="password-input"
+                        maxlength="7"
+                        placeholder="Entre le mot de passe"
+                        spellcheck="false"
+                        type="text"
+                />
+                <div class="gateway-message gateway-message--error" hidden id="error-message" role="alert">
+                    Accès refusé. Le Demogorgon a repéré ta trace...
+                </div>
+                <div class="gateway-message gateway-message--error" hidden id="auth-error-message" role="alert">
+                    Code accepté... mais le service d'authentification de Hawkins ne sait pas qui tu es.
+                </div>
+                <div class="gateway-message gateway-message--success" hidden id="success-message" role="status">
+                    Accès autorisé. Le portail vers l'Upside Down est ouvert.
+                </div>
+                <button class="gateway-button" type="submit">Ouvrir le portail</button>
+            </form>
+        </section>
+    </div>
+</main>
+<footer class="footer" role="contentinfo">
+    <div class="footer-wave"></div>
+    <div class="footer-inner">
+        <p class="footer-copy">
+            &copy; 2026 <a href="https://www.coda.school/" rel="noopener" target="_blank">Coda</a>
+        </p>
+    </div>
+</footer>
+<audio id="upside-audio" preload="none">
+    <source src="sounds/stranger-things-theme-song.mp3" type="audio/mpeg">
+</audio>
+<script src="main.js" type="module"></script>
+</body>
+</html>
