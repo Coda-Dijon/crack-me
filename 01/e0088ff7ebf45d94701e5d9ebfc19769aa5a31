@@ -1,0 +1,22 @@
+.gitignore
+  h_0a88d9aba8622a 1
+img/coda-logo.svg
+  h_0a88d9aba8622a 1-7
+index.html
+  h_0a88d9aba8622a 1-76
+main.js
+  h_0a88d9aba8622a 1
+styles.css
+  h_0a88d9aba8622a 1-591
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "01e0088ff7ebf45d94701e5d9ebfc19769aa5a31",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
