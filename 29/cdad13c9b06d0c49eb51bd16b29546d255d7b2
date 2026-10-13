@@ -1,0 +1,24 @@
+main.js
+  s_72c6d20a04b697::t_c8870eb379ebfa 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "29cdad13c9b06d0c49eb51bd16b29546d255d7b2",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_72c6d20a04b697": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5d24aa53-d56f-4116-8539-c626b33280cf",
+        "model": "unknown"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
